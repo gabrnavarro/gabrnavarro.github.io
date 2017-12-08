@@ -1,3 +1,15 @@
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+/* vendor */
+
+h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+
 .hsContainer {
     display: table;
     table-layout: fixed;
@@ -5,17 +17,51 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-    opacity: 0;
 }
-
+#slide-2 p {
+    font-size: 20px;
+}
 .hsContent {
     max-width: 450px;
     margin: -150px auto 0 auto;
     display: table-cell;
     vertical-align: middle;
     color: #ebebeb;
-    padding: 0 8%;
     text-align: center
+}
+
+.head{
+    padding: 30px;
+    vertical-align: top !important;
+    color: #ffffffa4;
+}
+
+#desc{
+    text-align:center;
+    margin: 20px 20%;
+}
+
+#desc p {
+    font-size: 20px;
+}
+
+.childContent{
+    width: 50%;
+    float: left;
+    text-align: left;
+    color: #ebebeb;
+    margin-top: 40px;
+    text-indent: 15%;
+}
+
+.right {
+    margin-top: 25% !important;
+}
+
+.bignum{
+    
+    opacity: 1;
+    font-size: 200px;
 }
 
 .bcg {
@@ -28,15 +74,26 @@
 }
 
 
+
 /* Slide 1 */
 
 #slide-1 .bcg {
-    background-image: url('assets/images/bg-1.jpg')
+    background-image: url('images/bg-1.jpg')
 }
 
 #slide-2 .bcg {
-    background: none;
-    background-color: #010101;
-    height: 310px;
-    text-align: center
+    background-image: url('images/bg-2.jpg')
+}
+
+
+#slide-3 .bcg {
+    background-image: url('images/bg-3.jpg');
+}
+
+#slide-4 .bcg {
+    background-image: url('images/bg-4.jpg')
+}
+
+#slide-5 .bcg {
+    background-image: url('images/bg-5.jpg')
 }
