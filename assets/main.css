@@ -54,6 +54,16 @@ h1 {
     text-indent: 15%;
 }
 
+#slide-4 .childContent{
+    width: 50%;
+    float: left;
+    color: #ebebeb;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 50px;
+    text-indent: 15%;
+}
+
 .right {
     margin-top: 25% !important;
 }
